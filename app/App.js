@@ -7,7 +7,7 @@ import Main from './components/Main/Main';
 /**
  * Todo componente en React tiene un estado.
  * Por defecto el estado de un componente es null.
- * 
+ * Accedemos al estado de un componente mediante this.state
  */
 
 
