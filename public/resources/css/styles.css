@@ -4,8 +4,39 @@
 
 body{
   background-color: rgb(245, 250, 255);
-  font-family: 'Abel', sans-serif;
+  font-family: 'Lora', serif;
+ }
+ 
+ h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+ }
+
+
+main{
+  margin: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+main .viaje-item{
+  padding: 19px;
+  border: 1px solid #0e95d2;
+  margin: 6.5px;
+  border-radius: 5px;
+  background: #fcfcfc;
+}
+
+main h4{
+  margin: 15px 0px;
+  color: #0e95d2;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+main p{text-align: justify; line-height: 15px;}
 
 ul {
   padding:0;
@@ -33,7 +64,6 @@ ul {
   font-weight:300
  }
  h4 {
-  font-family:Rubik,sans-serif;
   margin:0;
   font-weight:400;
   padding:0;

@@ -4,134 +4,74 @@ export default class Footer extends React.Component{
 
     render(){
         return(
-            <footer class="footer-area footer--light">
-                <div class="footer-big">
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-12">
-                        <div class="footer-widget">
-                            <div class="widget-about">
-                            <img src="http://placehold.it/250x80" alt="" class="img-fluid"/>
-                            <p>Es un hecho establecido hace demasiado tiempo</p>
-                            <ul class="contact-details">
-                                <li>
-                                <span class="icon-earphones"></span> Call Us:
-                                <a href="tel:344-755-111">344-755-111</a>
-                                </li>
-                                <li>
-                                <span class="icon-envelope-open"></span>
-                                <a href="mailto:support@aazztech.com">support@aazztech.com</a>
-                                </li>
-                            </ul>
-                            </div>
-                        </div>
-                        </div>
-                        <div class="col-md-3 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu footer-menu--1">
-                            <h4 class="footer-widget-title">Popular Category</h4>
+            <footer className="footer-area footer--light">
+                <div className="footer-big">
+                    <div className="container">
+                    <div className="row">
+                        <div className="col-md-3 col-sm-4">
+                        <div className="footer-widget">
+                            <div className="footer-menu footer-menu--1">
+                            <h4 className="footer-widget-title">Popular Category</h4>
                             <ul>
                                 <li>
-                                <a href="#">Wordpress</a>
+                                <a href="#">Item 1</a>
                                 </li>
                                 <li>
-                                <a href="#">Plugins</a>
-                                </li>
-                                <li>
-                                <a href="#">Joomla Template</a>
-                                </li>
-                                <li>
-                                <a href="#">Admin Template</a>
-                                </li>
-                                <li>
-                                <a href="#">HTML Template</a>
+                                <a href="#">Item 2</a>
                                 </li>
                             </ul>
                             </div>
                         </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu">
-                            <h4 class="footer-widget-title">Our Company</h4>
+                        <div className="col-md-3 col-sm-4">
+                        <div className="footer-widget">
+                            <div className="footer-menu">
+                            <h4 className="footer-widget-title">Our Company</h4>
                             <ul>
                                 <li>
-                                <a href="#">About Us</a>
+                                <a href="#">Item 1</a>
                                 </li>
                                 <li>
-                                <a href="#">How It Works</a>
-                                </li>
-                                <li>
-                                <a href="#">Affiliates</a>
-                                </li>
-                                <li>
-                                <a href="#">Testimonials</a>
-                                </li>
-                                <li>
-                                <a href="#">Contact Us</a>
-                                </li>
-                                <li>
-                                <a href="#">Plan &amp; Pricing</a>
-                                </li>
-                                <li>
-                                <a href="#">Blog</a>
+                                <a href="#">Item 2</a>
                                 </li>
                             </ul>
                             </div>
                         </div>
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
-                        <div class="footer-widget">
-                            <div class="footer-menu no-padding">
-                            <h4 class="footer-widget-title">Help Support</h4>
-                            <ul>
-                                <li>
-                                <a href="#">Support Forum</a>
-                                </li>
-                                <li>
-                                <a href="#">Terms &amp; Conditions</a>
-                                </li>
-                                <li>
-                                <a href="#">Support Policy</a>
-                                </li>
-                                <li>
-                                <a href="#">Refund Policy</a>
-                                </li>
-                                <li>
-                                <a href="#">FAQs</a>
-                                </li>
-                                <li>
-                                <a href="#">Buyers Faq</a>
-                                </li>
-                                <li>
-                                <a href="#">Sellers Faq</a>
-                                </li>
-                            </ul>
+                        <div className="col-md-3 col-sm-4">
+                            <div className="footer-widget">
+                                <div className="footer-menu no-padding">
+                                <h4 className="footer-widget-title">Help Support</h4>
+                                <ul>
+                                    <li>
+                                    <a href="#">Item 1</a>
+                                    </li>
+                                    <li>
+                                    <a href="#">Item 2</a>
+                                    </li>
+                                </ul>
+                                </div>
                             </div>
                         </div>
+
+                        <div className="col-md-3 col-sm-4">
+                            <div className="footer-widget">
+                                <div className="footer-menu no-padding">
+                                <h4 className="footer-widget-title">Help Support</h4>
+                                <ul>
+                                    <li>
+                                    <a href="#">Item 1</a>
+                                    </li>
+                                    <li>
+                                    <a href="#">Item 2</a>
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
                         </div>
 
-                    </div>
-                    </div>
-                </div>
-
-                <div class="mini-footer">
-                    <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                        <div class="copyright-text">
-                            <p>© 2018
-                            <a href="#">DigiPro</a>. All rights reserved. Created by
-                            <a href="#">AazzTech</a>
-                            </p>
-                        </div>
-
-                        <div class="go_top">
-                            <span class="icon-arrow-up"></span>
-                        </div>
-                        </div>
                     </div>
                     </div>
                 </div>
