@@ -1,4 +1,6 @@
 import React from 'react';
+import Buscador from './Buscador';
+
 
 
 export default class Header extends React.Component{
@@ -11,8 +13,11 @@ export default class Header extends React.Component{
     render(){
         return(
             <header className="navbar navbar-inverse">
-                <p>Soy el header</p>
-                <p>{this.props.fnComoProp()}</p>
+                <div className="flex flex-between">
+                    <div>{this.props.fnComoProp()}</div>
+                <Buscador />
+                </div>
+               
             </header>
         )
     }

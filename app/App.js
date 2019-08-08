@@ -18,7 +18,7 @@ import Carousel from './components/Carousel/Carousel';
  /**
   * PROPS EN REACT
   * Se usan para pasar información a componentes hijos.
-  * Las propiedades no deberían alterarse.
+º  * Las propiedades no deberían alterarse.
   * Podemos enviar funciones dentro de las props.
   */
 
