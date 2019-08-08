@@ -21,12 +21,16 @@ class Main extends React.Component{
 
     render(){
 
+        let testTimeOut = function(componente){
+            console.log("Cambiado el estado del componente " + componente);
+        }
+
         let resViajes = this.getProps();
         return(
             <main className="container">
                 {
                     resViajes.map(function(elem, index){
-                        return <ViajeItem key={index} viaje={elem}/>
+                        return <ViajeItem key={index} viaje={elem} test={testTimeOut}/>
                     })
                 }
             </main>

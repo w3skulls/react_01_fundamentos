@@ -18,13 +18,21 @@ import Carousel from './components/Carousel/Carousel';
  /**
   * PROPS EN REACT
   * Se usan para pasar información a componentes hijos.
-  * 
+  * Las propiedades no deberían alterarse.
+  * Podemos enviar funciones dentro de las props.
   */
 
 
 class App extends React.Component{
 
   render(){
+
+    //pasamos la función como propiedad al componente.
+    let fnComoProp = () =>{
+      return "Hola terrícola! Aquí estamos renderizando return de una función"
+    }
+
+    //pasamos los viajes como prop al componente.
     const viajes = [
       {
         nombre: "CALIFORNIA",
@@ -49,7 +57,7 @@ class App extends React.Component{
 
     return(
       <div>
-        <Header />
+        <Header fnComoProp = {fnComoProp}/>
         <Main viajes = {viajes}/>
         <Footer/>
       </div>
