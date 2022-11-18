@@ -9,7 +9,7 @@
   "author": "Héctor Ochoa",
   "license": "MIT",
   "devDependencies": {
-    "webpack-cli": "^3.3.6",
+    "webpack-cli": "^3.3.12",
     "webpack": "^4.36.1",
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
